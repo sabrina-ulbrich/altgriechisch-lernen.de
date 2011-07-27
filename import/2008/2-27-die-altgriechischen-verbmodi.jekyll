@@ -1,0 +1,138 @@
+---
+title: Die altgriechischen Verbmodi
+categories: Grammatik
+filter: markdown
+---
+Indikativ, Imperativ, Konjunktiv und Optativ sind die Verbmodi des Altgriechischen. Im Kantharos wird man innerhalb relativ kurzer Zeit (in meinem Uni-Kurs 4 Wochen) mit einer Fülle von neuen Aussageformen und Satzarten konfrontiert, nachdem man sich zuvor nur mit einfachen Aussagen der Wirklichkeit befasst hat. Das impliziert nicht nur neue Formenbildungen beim Verb, sondern auch feine Bedeutungsnuancen, für die man bei der Übersetzung ins Deutsche kreativ werden muß. Ich habe einen besseren Überblick gewonnen, indem ich hier die möglichen Aussageweisen zusammengefaßt habe. <!--more-->
+
+<h3>Indikativ</h3>
+
+Der Indikativ ist der Modus der Wirklichkeit. Mit ihm wird eine Aussage als Tatsache gekennzeichnet, manchmal aber auch als unwirklich (irreal), als eine indirekte Frage oder als Wunsch, der unerfüllbar ist.
+
+"Irrealis" bedeutet, dass der Sprecher die Bedingung (wenn-Satz) für unmöglich hält und folglich auch der behauptete Schluß nicht mit den Tatsachen übereinstimmen kann. Im Deutschen (und Lateinischen) verwendet man in diesem Fall den Konjunktiv, der Grieche gebrauchte hierfür den Indikativ in Verbindung mit der Partikel ἄν.
+
+<b>Irrealis der Gegenwart</b>
+Σὲ ἡδέως ἑώρων ἄν. - <i>Ich würde dich gern sehen.</i>
+Oder im Nebensatz εἰ mit Imperfekt, im Hauptsatz Imperfekt mit ἄν:
+Εἰ ὄρνις ἦν, ἠρχόμεν ἂν πρὸς σέ. - <i>Wenn ich ein Vogel wäre, käme ich zu dir.</i>
+
+<b>Irrealis der Vergangenheit</b>
+Σὲ ἡδέως εἶδον ἄν. - <i>Ich hätte dich gern gesehen.</i>
+Oder im Nebensatz εἰ mit Aorist und im Hauptsatz Aorist mit ἄν:
+Εἰ ὂρνις ἐγενόμην, ἤλθον ἂν πρὸς σέ. - <i>Wenn ich ein Vogel gewesen wäre, wäre ich zu dir gekommen.</i>
+
+Beide können auch kombiniert werden, wenn die (irreale) Bedingung in der Vergangenheit liegt und die (irreale) Folge in der Gegenwart:
+Εἰ μὴ γὰρ μῦς ἐνέπεσεν εἰς τὸ μέλι, οὐκ ἂν ἐπώλουν αὐτό. - <i>Wenn nämlich keine Maus in den Honig gefallen wäre, würde ich ihn nicht verkaufen.</i>
+
+<b>Indirekter Fragesatz</b>
+Indikativ steht bei Präsens und Futur, bei Vergangenheitstempus (auch Nebentempus genannt) meist Optativ (kann aber auch Indikativ stehen).
+Ἀπορεῖ, ὅ τι χρὴ ποιεῖν. - <i>Er ist ratlos, was zu tun nötig ist. (..., was er tun soll.)</i> Die Frage wird deutlicher, wenn der Satz geteilt wird: Er ist ratlos. Was ist zu tun?
+
+<h3>Imperativ</h3>
+
+Der Imperativ ist der Befehlsmodus. Er richtet Gebote und Verbote an die 2. und 3. Person Singular und Plural (vergleiche dazu den Coniunctivus hortativus), kommt nur mit Präsens und Aorist vor und wird mit μή verneint. Die Formen der 2. Person Plural sind die gleichen wie die des Indikativ.
+
+Χαίρετε, ὦ φίλοι. - <i>Freut euch, Freunde!</i>
+
+<h3>Konjunktiv</h3>
+
+Der Konjunktiv ist zum einen der Modus des Willens, zum anderen der Modus der Möglichkeit. Im ersten Fall bezeichnet er nicht das, was ist, sondern was sein soll oder nicht sein soll, ein Begehren oder eine Erwartung des Sprechers. Im anderen Fall bezeichnet er eine Möglichkeit, die eventuell eintritt (Eventualis) oder wiederholt eintritt (Iterativus). Der Konjunktiv wird mit μή verneint.
+
+Durch Dehnung der Bindevokale ε (> η) und ο (> ω) wird aus dem Indikativ der Konjunktiv. Ein darauf folgendes ι wird dem gedehnten Vokal subskribiert. Den Konjunktiv besitzen nur drei Tempora: Präsens, Perfekt und Aorist; Imperfekt, Futur und Plusquamperfekt haben ihn nie besessen.
+
+<b>Prohibitiv (Verbot)</b>
+Im Gegensatz zum Imperativ wird beim Coniunctivus prohibitivus betont, dass etwas nicht sein <i>soll</i>.
+Μὴ κλέψῃς. - <i>Du sollst nicht stehlen.</i> (Vergleiche den Imperativ: Μὴ κλέψον. - <i>Stehle nicht!</i>)
+
+<b>Indirekter Wunschsatz nach Verben des Fürchtens</b>
+Wie beim Prohibitiv bezeichnet auch der (negative) Wunsch, dass etwas nicht sein soll. Wenn im Hauptsatz ein Vergangenheitstempus steht, wird der Optativ verwendet.
+Φοβεῖται, μὴ διαφθείρηται τὸ γένος ἡμῶν. - <i>Er fürchtet, dass unsere Gattung zugrunde geht.</i>
+
+<b>Finalsatz</b>
+Nach einem Finalsatz, der mit ἵνα, ὡς oder ὅπως eingeleitet wird, steht nach einem Haupttempus immer der Konjunktiv (der Optativ kann stehen, wenn im Hauptsatz ein Vergangenheitstempus steht).
+Ἐπὶ τοὺς αὐτούς μὴ στρατεύετε πολλάκις, ἵνα μὴ πολεμεῖν τοὺς πολεμίους διδάσκητε. - <i>Gegen dieselben (Leute) sollt ihr nicht oft ins Feld ziehen, damit ihr die Feinde nicht lehrt Krieg zu führen.</i>
+
+<b>Hortativ (Aufforderung)</b>
+Den Coniunctivus (ad)hortativus, wie dieser Konjunktiv der Aufforderung genannt wird, gibt es nur in der 1. Person Plural, der Sprecher bezieht sich also mit ein.
+Σπεύσωμεν. - <i>Laßt uns beeilen! (Beeilen wir uns!)</i>
+
+<b>Überlegende Frage</b>
+Der Coniunctivus deliberativus (überlegen) oder dubitativus (zögern) richtet sich fragend auf die Zukunft.
+Τί ποιήσω; - <i>Was soll ich tun?</i>
+
+<b>Eventualis</b>
+Bei diesem futurischen Fall steht im Hauptsatz Indikativ Futur, im Nebensatz ἄν und Konjunktiv Präsens oder Aorist. Es wird angezeigt, dass etwas passieren wird (eventuell) - für den Fall, dass ...
+Ὃς ἂν ἐρωτηθῇ, σιωπήσει. - <i>Wer auch immer gefragt wird, wird schweigen.</i>
+Ἐάν με ἀδικῇς, ἀγανακτήσω. - <i>Wenn du mir Unrecht tun solltest, werde ich mich (gewiss) ärgern.</i>
+
+<b>Iterativ der Gegenwart</b>
+Es wird ausgedrückt, dass etwas wiederholt eintritt bzw. verallgemeinert wird (zeitlich, räumlich oder relativ). Im Hauptsatz steht Indikativ, im Nebensatz Konjunktiv mit ἄν. (Für den Iterativ der Vergangenheit wird der Optativ verwendet.)
+Φιλοσοφία ἐστὶν χαρίεν, ἐάν τις αὐτῆς μετρίως ἅψηται. - <i>Philosophie ist reizvoll, wenn sich jemand mit ihr in maßvoller Weise befasst.</i>
+Ὅπου δ' ἂν φαῦλος ᾖ, ἐντεῦθεν φεύγει. - <i>Wo auch immer einer schlecht ist, von da flieht er.</i>
+Ὧι ἂν βασιλεύς δωρῆται ... - <i>Wem auch immer der König (etwas) schenkt ...</i>
+
+<table border="0" width="400">
+<tr>
+	<td>eingeleitet mit</td>
+	<td>Indikativ</td>
+	<td>Konjunktiv mit ἄν</td>
+</tr>
+<tr>	
+	<td>Relativpronomen</td>
+	<td>ὅ, ἅ (<i>was</i>)</td>
+	<td>ὅ, ἅ ἄν (<i>was auch immer; alles, das</i>)</td>
+</tr>
+<tr>
+	<td>lokale Konj.</td>
+	<td>ὅπου (<i>wo</i>)</td>
+	<td>ὅπου ἄν (<i>wo auch immer; überall wo</i>)</td>
+</tr>
+<tr>
+	<td>temporale Konj.</td>
+	<td>ὅτε, ἐπειδή (<i>wann</i>)</td>
+	<td>ὅταν, ἐπειδάν (<i>wann auch immer; immer wenn</i>)</td>
+</tr>
+<tr>	
+	<td>konditionale Konj.</td>
+	<td>εἰ (<i>wenn</i>)</td>
+	<td>ἐάν, ἄν (εἰ ἄν) (<i>falls jemals</i>)</td>
+</tr>
+</table>
+
+<h3>Optativ</h3>
+
+Der Optativ wird Wunschmodus (lat. optare, wünschen) genannt, was aber nur eine mögliche (und zudem eher seltene) Anwendung ist. Manchmal wird er auch Modus der Unbestimmtheit oder der Vorstellung genannt. Er bezeichnet, wie auch der Konjunktiv, eine subjektive Behauptung.
+
+Der um das Moduszeichen ι erweiterte Bindevokal tritt in allen Personen auf. Übrigens gilt das οι (bzw. das αι beim Aorist) des Optativs bezüglich der Akzentsetzung als lang. Der Optativ wird mit Verben im Präsens, Futur, Perfekt und Aorist gebildet.
+
+<b>Wunsch</b>
+Im Gegensatz zum irrealen Wunsch im Indikativ wird der Wunschsatz mit Optativ als erfüllbar gedacht.
+Σὺ εὖ πράττοις. - <i>Möge es dir gut gehen!</i>
+
+<b>Iterativ der Vergangenheit</b>
+Im Hauptsatz steht Imperfekt (um den Aspekt der Wiederholung anzuzeigen), im Nebensatz eine temporale Konjunktion oder εἰ mit Optativ.
+Ὅτε ἁθροισθεῖεν, ἠδίκουν ἀλλήλους. - <i>Immer wenn sie sich versammelten, taten sie einander Unrecht.</i>
+
+<b>Potentialis</b>
+Der Potentialis der Gegenwart zeigt eine als möglich gedachte oder abgeschwächte Aussage an und wird im Nebensatz mit εἰ und Optativ, im Hauptsatz mit Optativ und ἄν gebildet. Er wird mit οὐ verneint.
+Ἰατρὸς ἂν κρίνοιτο. - <i>Ein Arzt könnte/dürfte wohl verurteilt werden.</i>
+Εἰ ἰατροῦ κατηγοροῖ τις, κρίνοιτο ἄν. - <i>Wenn jemand einen Arzt verklagte, würde dieser wohl verurteilt.</i>
+
+Der <b>Optativ der inneren Abhängigkeit</b> (Optativus obliquus) tritt nur nach Vergangenheitstempus (Imperfekt, Aorist oder Plusquamperfekt) auf. Es gibt vier Fälle:
+
+<i>1. Indirekte Rede</i>
+In der abhängigen Aussage steht der Optativ, wenn betont werden soll, dass es sich um eine subjektive Meinung handelt oder um eine Behauptung dritter, für die der Sprecher keine Gewähr übernehmen will. (Nach Präsens und Futur steht Indikativ.)
+Ἐλέγεν, ὅτι ἥκοι. - <i>Er sagte, dass er komme.</i>
+
+<i>2. Indirekte Frage</i>
+Ἠπόρει, ὅ τι χρείη (aus χρὴ εἴη) ποιεῖν. - <i>Er war ratlos, was er tun solle.</i>
+
+<i>3. Indirekter Wunsch</i>
+Nach Verben des Fürchtens im Vergangenheitstempus steht meist der Optativ.
+Ἐφοβεῖτο, μὴ διαφθείροιτο τὸ γένος ἡμῶν. - <i>Er fürchtete, dass unsere Gattung zugrunde geht.</i>
+
+<i>4. Finalsatz</i>
+Im Finalsatz (ἵνα, ὡς, ὅπως) kann nach einem Vergangenheitstempus der Optativ stehen (vgl. bei Haupttempora den Konjunktiv).
+Ἑρμῆς ἤνεγκε αἰδὼ καὶ δίκην, ἵνα εἶεν πόλεων δεσμοί. - <i>Hermes brachte Achtung und Recht, damit sie Bande der Städte seien.</i>
+
+So, das war's. Mit dieser Zusammenfassung stelle ich keinen Anspruch auf Vollständigkeit. Mir geht es darum, alle Fälle, die im Kantharos bis Lektion 46 auftauchen, übersichtlich zu erfassen. Wenn ich etwas übersehen oder einen Fehler gemacht habe, freue ich mich über Hinweise oder Verbesserungsvorschläge. :)

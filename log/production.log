@@ -1,0 +1,591 @@
+
+
+Started GET "/" for  at Mon Aug 23 08:07:11 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (16.1ms)
+Completed 200 OK in 37ms (Views: 31.7ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen" for  at Mon Aug 23 08:07:12 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"56"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft" for  at Mon Aug 23 08:07:14 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"70"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (4.1ms)
+Completed 200 OK in 99ms (Views: 4.3ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/miteinander-reden" for  at Mon Aug 23 08:07:15 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"82"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.3ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/themen/konflikte-loesen" for  at Mon Aug 23 08:07:17 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"67"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.2ms)
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren" for  at Mon Aug 23 08:07:18 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"57"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.3ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/buch-rhetorik" for  at Mon Aug 23 08:07:20 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.7ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm" for  at Mon Aug 23 08:07:21 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/kennen-sie-ihren-partner" for  at Mon Aug 23 08:07:22 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/zeit-zu-zweit" for  at Mon Aug 23 08:07:22 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/themen/miteinander-reden/selbstwertgefuehl" for  at Mon Aug 23 08:07:22 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/miteinander-reden/paraphrasieren" for  at Mon Aug 23 08:07:22 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/miteinander-reden/wahrnehmungsuebungen" for  at Mon Aug 23 08:07:22 +0200 2010
+
+
+Started GET "/themen/konflikte-loesen/kritik-annehmen" for  at Mon Aug 23 08:07:22 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/konflikte-loesen/kritik-geben" for  at Mon Aug 23 08:07:22 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/kunst-des-findens" for  at Mon Aug 23 08:07:23 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/analogie-und-metapher" for  at Mon Aug 23 08:07:23 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/argumentationsfehler" for  at Mon Aug 23 08:07:23 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/falsche-schluesse" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/sprache-und-denken/klare-sprache" for  at Mon Aug 23 08:07:24 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/themen/sprache-und-denken/nur-in-meinem-kopf" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/miteinander-reden/erfolgreiche-kommunikation" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/kritik_geben" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/kritik_annehmen" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/starke-argumente" for  at Mon Aug 23 08:07:24 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/" for  at Mon Aug 23 08:07:44 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (15.7ms)
+Completed 200 OK in 37ms (Views: 31.4ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen" for  at Mon Aug 23 08:07:46 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"56"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft" for  at Mon Aug 23 08:07:47 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"70"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (4.1ms)
+Completed 200 OK in 99ms (Views: 4.3ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/miteinander-reden" for  at Mon Aug 23 08:07:49 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"82"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.3ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/konflikte-loesen" for  at Mon Aug 23 08:07:50 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"67"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.2ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren" for  at Mon Aug 23 08:07:52 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"57"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.6ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/buch-rhetorik" for  at Mon Aug 23 08:07:53 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm" for  at Mon Aug 23 08:07:55 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/kennen-sie-ihren-partner" for  at Mon Aug 23 08:07:55 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/" for  at Mon Aug 23 08:27:32 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (16.3ms)
+Completed 200 OK in 37ms (Views: 31.6ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen" for  at Mon Aug 23 08:27:33 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"56"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.6ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft" for  at Mon Aug 23 08:27:34 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"70"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/themen/miteinander-reden" for  at Mon Aug 23 08:27:35 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"82"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/themen/konflikte-loesen" for  at Mon Aug 23 08:27:36 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"67"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren" for  at Mon Aug 23 08:27:37 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"57"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.6ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/buch-rhetorik" for  at Mon Aug 23 08:27:38 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.6ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm" for  at Mon Aug 23 08:27:39 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"72"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft/kennen-sie-ihren-partner" for  at Mon Aug 23 08:27:40 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"71"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/themen/liebe-und-partnerschaft/zeit-zu-zweit" for  at Mon Aug 23 08:27:41 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"81"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.9ms)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/miteinander-reden/selbstwertgefuehl" for  at Mon Aug 23 08:27:42 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"85"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (4.0ms)
+Completed 200 OK in 99ms (Views: 4.2ms | ActiveRecord: 102.5ms)
+
+
+Started GET "/themen/miteinander-reden/paraphrasieren" for  at Mon Aug 23 08:27:43 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"84"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (95.6ms)
+Completed 200 OK in 99ms (Views: 95.8ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/themen/miteinander-reden/wahrnehmungsuebungen" for  at Mon Aug 23 08:27:44 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"86"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (115.5ms)
+Completed 200 OK in 119ms (Views: 115.8ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/konflikte-loesen/kritik-annehmen" for  at Mon Aug 23 08:27:45 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"68"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/themen/konflikte-loesen/kritik-geben" for  at Mon Aug 23 08:27:46 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"69"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.6ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren/kunst-des-findens" for  at Mon Aug 23 08:27:47 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"65"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren/analogie-und-metapher" for  at Mon Aug 23 08:27:48 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"58"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.3ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren/argumentationsfehler" for  at Mon Aug 23 08:27:49 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"59"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.4ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/themen/erfolgreich-argumentieren/falsche-schluesse" for  at Mon Aug 23 08:27:50 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"63"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.5ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 105.9ms)
+
+
+Started GET "/themen/sprache-und-denken/klare-sprache" for  at Mon Aug 23 08:27:51 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"91"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/themen/sprache-und-denken/nur-in-meinem-kopf" for  at Mon Aug 23 08:27:52 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"92"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.7ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/themen/miteinander-reden/erfolgreiche-kommunikation" for  at Mon Aug 23 08:27:53 +0200 2010
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"83"}
+Rendered /Volumes/Users/sven/Development/projects/adva_cms/adva-cms2/adva-core/app/views/pages/show.html.rb within layouts/default (3.8ms)
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/kritik_geben" for  at Mon Aug 23 08:27:54 +0200 2010
+
+ActionController::RoutingError (No route matches "/kritik_geben"):
+  
+
+
+
+Started GET "/kritik_annehmen" for  at Mon Aug 23 08:27:55 +0200 2010
+
+ActionController::RoutingError (No route matches "/kritik_annehmen"):
+  
+
+
+
+Started GET "/themen/erfolgreich-argumentieren/starke-argumente" for  at Mon Aug 23 08:27:56 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/gezielte-ueberzeugung" for  at Mon Aug 23 08:27:57 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/gezielte-ueberzeugung/was-ist-rhetorik" for  at Mon Aug 23 08:27:58 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/gezielte-ueberzeugung/das-redekonzept" for  at Mon Aug 23 08:27:58 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/erfolgreiches-auftreten" for  at Mon Aug 23 08:27:58 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/erfolgreiches-auftreten/darbietung-der-rede" for  at Mon Aug 23 08:27:58 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/erfolgreiches-auftreten/umgang-mit-stoerungen" for  at Mon Aug 23 08:27:58 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/argumentative-rhetorik" for  at Mon Aug 23 08:27:59 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/buch-rhetorik/argumentative-rhetorik/logische-argumente" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/buch-rhetorik/argumentative-rhetorik/praktische-argumente" for  at Mon Aug 23 08:27:59 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/der-ideale-partner" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/den-partner-besser-verstehen" for  at Mon Aug 23 08:27:59 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/eigene-erwartungen" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/fuehlen-und-denken" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/uebereinstimmung-finden" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/themen/liebe-und-partnerschaft/partner-intensiv-programm/gemeinsames-glueck" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/wahrnehmungsuebung_2" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/wahrnehmungsuebung_3" for  at Mon Aug 23 08:27:59 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/wahrnehmungsuebung_4" for  at Mon Aug 23 08:27:59 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/argumentationsfehler_2" for  at Mon Aug 23 08:28:00 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/argumentationsfehler_3" for  at Mon Aug 23 08:28:00 +0200 2010
+
+ActiveRecord::StatementInvalid (Interrupt: : SELECT     "sections"."id", "sections"."site_id", "sections"."parent_id", "sections"."lft", "sections"."rgt", "sections"."type", "sections"."title", "sections"."slug", "sections"."path", "sections"."level", "sections"."created_at", "sections"."updated_at" FROM       "sections" WHERE     ("sections".site_id = 1) ORDER BY  lft):
+  
+
+
+
+Started GET "/argumentationsfehler_4" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/argumentationsfehler_2" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/argumentationsfehler_3" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/argumentationsfehler_4" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/falsche_schluesse_2" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+
+
+
+Started GET "/index.php3" for  at Mon Aug 23 08:28:00 +0200 2010
+
+Interrupt ():
+  
+

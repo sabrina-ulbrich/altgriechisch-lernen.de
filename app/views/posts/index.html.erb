@@ -1,0 +1,24 @@
+<% if category %>
+  <h2>Kategorie: <%= category.name %></h2>
+<% elsif params[:month] %>
+  <h2>Archiv für <%= Date.new(params[:year].to_i, params[:month].to_i, 1).strftime('%B %Y') %></h2>
+<% end %>
+
+<% collection[0,15].each do |post| %>
+  <div class="hentry">
+    <h3><%= link_to(post.title, [blog, post], :class => "entry-title", :rel => "bookmark") %></h3>
+    <small><%=l(post.published_at, :format => :post) %></small>
+    <div class="entry">
+      <p>
+        <%= truncate_html(post.body, :length => 700, :omission => " … #{link_to('Weiterlesen &raquo;'.html_safe, :class => "entry-title", :rel => "bookmark")}" ).html_safe %>
+      </p>
+    </div>
+    <p class="postmetadata">
+      <% if post.categories.present? %>
+        Kategorien: <%= post.categories.map { |category| link_to(category.name, url_for(:blog_id => blog, :category_id => category), :rel => 'category tag') }.join(', ').html_safe %>
+      <% end %>
+      <!-- <a href="http://altgriechisch-lernen.de/einfuhrung-griechische-sprache#disqus_thread" title="Comment on Zufällig in der Bibliothek gefunden …" data-disqus-identifier="106 http://altgriechisch-lernen.de/einfuhrung-griechische-sprache/">0 Comments</a> -->
+    </p>
+  </div>
+<% end %>
+

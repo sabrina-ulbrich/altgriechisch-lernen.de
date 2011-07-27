@@ -1,0 +1,153 @@
+---
+title: Uni-Tagebuch, 14. Woche
+categories: Uni-Tagebuch
+filter: markdown
+---
+Wesentliches Thema sind in dieser Woche die Besonderheiten der Tempusbildung bei den Verba liquida im Präsens, Futur (attisches Futur) und Aorist, außerdem der starke Aorist Passiv. <!--more-->
+
+<h3>37. Tag</h3>
+
+Hey, heute gab es sogar ein kleines Lob für die Kursteilnehmer! :) Herr Wiesner ist zufrieden mit unseren Lernfortschritten.
+
+Neu ist heute nur die Deklination von ὁ ἰχθῦς, der Fisch. Ansonsten üben wir uns in der Unterscheidung von <i>Iterativ der Gegenwart</i> und <i>futurischer Fall</i>, den beim letzten Mal besprochenen Konjunktiv-Nebensätzen.
+
+<h3>38. Tag</h3>
+
+ὁ βασιλεύς gehört zur letzten Gruppe, die uns noch zur <a href="http://altgriechisch-lernen.de/die-dritte-deklination/">Dritten Deklination</a> fehlt.
+
+Wegen der vielen Partizipien in den griechischen Texten, die sich nicht auf gleiche Weise ins Deutsche übersetzen lassen, ist es hilfreich, ein paar Regeln im Kopf zu haben, mit denen die wiederkehrenden Muster leichter identifiziert werden können. Die folgenden Beispiele gehören darum auch zu der Fragensammlung, die Herr Wiesner regelmäßig im Unterricht abfragt.
+
+Bei welchen Verbgruppen stehen Partizipialkonstruktionen?
+
+<ol>
+<li>Verben, die eine besondere Art des Seins bezeichnen<br>
+	Beispiele:<br>
+	τυγχάνω παρών<br>
+	ich bin gerade/zufällig anwesend<br>
+	φαίνομαι κοσμῶν<br>
+	es zeigt sich von mir, dass ich schmücke<br>
+	φανερός εἰμι κλέπτων<br>
+	offensichtlich stehle ich<br>
+	λανθάνω ἀπατῶν<br>
+	heimlich betrüge ich</li>
+<li>Verben der Gemütsstimmung<br>
+	Beispiel:<br>
+	χαίρω ἀποκπινόμενος<br>
+	ich antworte gern</li>
+<li>Verben der geistigen und sinnlichen Wahrnehmung<br>
+	Beispiel (AcI):<br>
+	ὅρω σε ἥκοντα<br>
+	ich sehe, dass du kommst
+</li>
+</ol>
+
+<h3>39. Tag</h3>
+
+Bei den Verba liquida ergeben sich einige Änderungen gegenüber der gewöhnlichen Tempusbildung.
+
+Der <i>Präsensstamm</i> stimmt nur in wenigen Fällen mit dem Verbalstamm überein, nämlich bei μένω (μεν-) und νέμω (νεμ-). In den meisten Fällen tritt eine der folgenden Veränderungen des Präsensstammes auf:
+
+<ol>
+<li>Verdoppelung des Konsonanten, z.B. ἀγγέλλω, βάλλω</li>
+<li>Vokaldehnung ε > ει, z.B. ἐγείρομαι, φθείρω</li>
+<li>Vokaldehnung α > αι, z.B. αἴρω, φαίνομαι</li>
+</ol>
+
+Das <i>Futur</i> bei den Verba liquida wird "attisches Futur" oder "Futurum contractum" genannt. Es wird nach dem Muster von ποιέω konjugiert, d.h. das Tempuszeichen σε/σο entfällt und die Endung bekommt den Zirkumflex (ausgenommen die 1. Person Plural im Medium, weil der Zirkumflex nicht auf der drittletzten Silbe stehen darf). Am Beispiel von νέμω (zuteilen) sieht das dann so aus:
+
+<table border="0" width="360">
+<tr>
+	<td>Fut. Aktiv</td>
+	<td>Fut. Medium</td>
+</tr>
+<tr>
+	<td>νεμ<b>ῶ</b></td>
+	<td>νεμ<b>οῦμαι</b></td>
+</tr>
+<tr>
+	<td>νεμ<b>εῖς</b></td>
+	<td>νεμ<b>ῇ</b></td>
+</tr>
+<tr>
+	<td>νεμ<b>εῖ</b></td>
+	<td>νεμ<b>εῖται</b></td>
+</tr>
+<tr>
+	<td>νεμ<b>οῦμεν</b></td>
+	<td>νεμ<b>ούμεθα</b></td>
+</tr>
+<tr>
+	<td>νεμ<b>εῖτε</b></td>
+	<td>νεμ<b>εῖσθε</b></td>
+</tr>
+<tr>
+	<td>νεμ<b>οῦσιν</b></td>
+	<td>νεμ<b>οῦνται</b></td>
+</tr>
+</table>
+
+Das Tempuszeichen σ von <i>Aorist</i> Aktiv und Medium entfällt mit Ersatzdehnung des vorhergehenden Vokals (α > η, ε > ει), ι, υ (und α nach ι, ρ) werden lang gesprochen, was sich aber nicht auf die Schreibweise auswirkt. Ein paar Beispiele:
+
+<table border="0" width="360">
+<tr>
+	<td>Aor. Aktiv</td>
+	<td>entsteht aus</td>
+	<td>Präsensform</td>
+</tr>
+<tr>
+	<td>ἔνειμα</td>
+	<td>< ἔ-νεμ-σα</td>
+	<td>νέμω (zuteilen)</td>
+</tr>
+<tr>
+	<td>ἐμείνατε</td>
+	<td>< ἐ-μέν-σατε</td>
+	<td>μένω (bleiben)</td>
+</tr>
+<tr>
+	<td>ἠγγείλαμεν</td>
+	<td>< ἠγγέλ-σαμεν</td>
+	<td>ἀγγέλλω (melden)</td>
+</tr>
+<tr>
+	<td>ἔφηνα</td>
+	<td>< ἔ-φαν-σα</td>
+	<td>φαίνω (zeigen)</td>
+</tr>
+<tr>
+	<td>ἔκρινα</td>
+	<td>< ἔ-κριν-σα</td>
+	<td>κρίνω (urteilen)</td>
+</tr>
+</table>
+
+Und dann gibt es noch den <i>starken Aorist Passiv</i>, der ohne θ gebildet wird. Das <i>Futur Passiv</i> wird bei diesen Verben vom Aorist abgeleitet und ebenfalls ohne θ gebildet. Beispiele:
+
+<table border="0" width="360">
+<tr>
+	<td>Aor. Passiv</td>
+	<td>Fut. Passiv</td>
+	<td>Präsensform</td>
+</tr>
+<tr>
+	<td>ἐγράφην</td>
+	<td>γραφήσομαι</td>
+	<td>γράφω (schreiben)</td>
+</tr>
+<tr>
+	<td>ἐτράφην</td>
+	<td>τραφήσομαι</td>
+	<td>τρέφω (ernähren)</td>
+</tr>
+<tr>
+	<td>ἐστάλην</td>
+	<td>σταλήσομαι</td>
+	<td>στέλλω (senden)</td>
+</tr>
+<tr>
+	<td>ἐφάνην</td>
+	<td>φανήσομαι</td>
+	<td>φαίνω (zeigen)</td>
+</tr>
+</table>
+
