@@ -1,14 +1,33 @@
-Dir.chdir('..') until File.exists?('config/environment.rb')
+class Static < ::Rack::File
+  attr_reader :app, :root
 
-require 'config/environment.rb'
+  def initialize(app, root)
+    @app  = app
+    @root = root
+  end
 
-Rails::Application.configure do
-  ActionController::Base.allow_forgery_protection = false
+  def call(env)
+    if get?(env) && path = static(env)
+      super(env.merge('PATH_INFO' => path))
+    else
+      app.call(env)
+    end
+  end
+
+  protected
+
+    def static(env)
+      path = env['PATH_INFO'].chomp('/')
+      [path, "#{path}.html", "#{path}/index.html"].detect { |path| file?(path) }
+    end
+
+    def file?(path)
+      File.file?(File.join(root, ::Rack::Utils.unescape(path)))
+    end
+
+    def get?(env)
+      env['REQUEST_METHOD'] == 'GET'
+    end
 end
 
-use Adva::Static::Rack::Watch
-use Adva::Static::Rack::Export
-use Adva::Static::Rack::Static, ::File.expand_path('../export', __FILE__)
-
-puts 'listening.'
-run Rails.application
+run Static.new(lambda {}, ::File.expand_path('..', __FILE__))
