@@ -15,7 +15,7 @@
 </div>
 <hr />
 
-<div id="content" class="narrowcolumn">
+<div id="content" class="<%= params[:action] == 'index' ? 'narrowcolumn' : 'widecolumn' %>">
 <%= yield %>
 </div>
 

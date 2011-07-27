@@ -1,10 +1,10 @@
 ---
-name: Über mich
+title: Über mich
 filter: markdown
 ---
 <h3>Hallo liebe Leser!</h3>
 
-<img src='http://altgriechisch-lernen.de/wp-content/uploads/2007/08/sabrina07.jpg' style="margin: 5px 0px 15px 15px; float: right" alt='Sabrina 2007' />Auf altgriechisch-lernen.de schreibe ich über meine Erfahrungen beim Lernen der altgriechischen Sprache für Leute, die davon ebenso fasziniert sind wie ich oder sich einfach dafür interessieren.
+<img src='/images/contents/sabrina07.jpg' style="margin: 5px 0px 15px 15px; float: right" alt='Sabrina 2007' />Auf altgriechisch-lernen.de schreibe ich über meine Erfahrungen beim Lernen der altgriechischen Sprache für Leute, die davon ebenso fasziniert sind wie ich oder sich einfach dafür interessieren.
 
 In der <a href="http://altgriechisch-lernen.de/category/lernen/">Kategorie "Lernen"</a> findest du Beschreibungen verschiedener Lerntechniken und nützliche Tipps, die mir beim Studieren geholfen haben.
 

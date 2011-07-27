@@ -19,7 +19,7 @@ class Page
   end
 
   def content
-    node.xpath("content:encoded").text
+    node.xpath("content:encoded").text.gsub(%r(http://altgriechisch-lernen.de/wp-content/uploads/\d*/\d*), '/images/contents')
   end
 
   def creator
@@ -97,19 +97,64 @@ txt
   end
 end
 
+class Attachment
+  attr_reader :node
+
+  def initialize(node)
+    @node = node
+  end
+
+  def title
+    node.xpath("title").text
+  end
+
+  def description
+    node.xpath("description").text
+  end
+
+  def file_name
+    url.split('/').last
+  end
+
+  def post_date
+    DateTime.parse node.xpath("wp:post_date").text
+  end
+
+  def url
+    node.xpath("wp:attachment_url").text
+  end
+
+  def path
+    url.gsub(%r(http://altgriechisch-lernen.de/wp-content/uploads/\d*/\d*), 'public/images/contents')
+  end
+
+  def image?
+    url.match /\.(png|jpg|jpeg|gif)$/
+  end
+end
+
 doc = Nokogiri::XML(File.open('wordpress.2011-07-25.xml'))
 doc.xpath("//item[wp:post_type='page']").each do |node|
   item = Page.new(node)
   FileUtils.mkdir_p(File.dirname(item.path))
+  puts "write page #{item.path}"
   File.open(item.path, 'w+') { |f| f.write(item.to_jekyll) }
 end
 
 doc.xpath("//item[wp:post_type='post']").each do |node|
   item = Post.new(node)
   FileUtils.mkdir_p(File.dirname(item.path))
+  puts "write post #{item.path}"
   File.open(item.path, 'w+') { |f| f.write(item.to_jekyll) }
 end
 
+doc.xpath("//item[wp:post_type='attachment']").each do |node|
+  item = Attachment.new(node)
+  next unless item.image?
+  puts "$ curl --create-dirs -s -o #{item.path} #{item.url}"
+  `curl --create-dirs -o #{item.path} #{item.url}`
+  # File.open(item.path, 'w+') { |f| f.write(item.to_jekyll) }
+end
 
 
 

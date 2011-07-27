@@ -5,13 +5,11 @@
 <% end %>
 
 <% collection[0,15].each do |post| %>
-  <div class="hentry">
+  <div class="entry">
     <h3><%= link_to(post.title, [blog, post], :class => "entry-title", :rel => "bookmark") %></h3>
     <small><%=l(post.published_at, :format => :post) %></small>
-    <div class="entry">
-      <p>
-        <%= truncate_html(post.body, :length => 700, :omission => " … #{link_to('Weiterlesen &raquo;'.html_safe, :class => "entry-title", :rel => "bookmark")}" ).html_safe %>
-      </p>
+    <div class="entry-content">
+      <%= truncate_html(post.body, :length => 700, :omission => " … #{link_to('Weiterlesen &raquo;'.html_safe, [blog, post], :class => "entry-title", :rel => "bookmark")}").html_safe %>
     </div>
     <p class="postmetadata">
       <% if post.categories.present? %>
