@@ -30,4 +30,5 @@ class Static < ::Rack::File
     end
 end
 
-run Static.new(lambda {}, ::File.expand_path('..', __FILE__))
+use Static, ::File.expand_path('..', __FILE__)
+run lambda { [404, { 'content-type' => 'text/html' }, '<h1>404 Not found.</h1>'] }
