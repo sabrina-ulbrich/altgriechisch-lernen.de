@@ -47,7 +47,6 @@ body {
 	}
 
 .postmetadata {
-	//text-align: center;
 	}
 
 .alt {
@@ -235,7 +234,7 @@ body {
 	}
 
 #header {
-	margin: 0 0 40px 1px;
+	margin: 0 0 60px 1px;
 	padding: 0;
 	width: 758px;
 	text-align:center;
@@ -248,15 +247,15 @@ body {
 
 .narrowcolumn {
 	float: left;
-	padding: 0 0 20px 45px;
+	padding: 0 0 20px 0px;
 	margin: 0px 0 0;
-	width: 450px;
+	width: 490px;
 	}
 
 .widecolumn {
 	padding: 10px 0 20px 0;
-	margin: 5px 0 0 150px;
-	width: 450px;
+	margin: 5px 0 0 00px;
+	width: 760px;
 	}
 
 .post {
@@ -265,7 +264,7 @@ body {
 	}
 
 .widecolumn .post {
-	margin: 0;
+	margin-bottom: 60px;
 	}
 
 .narrowcolumn .postmetadata {
@@ -315,7 +314,7 @@ h1 {
 	}
 
 h2 {
-	margin: 30px 0 0;
+	margin: 80px 0 0;
 	}
 
 h2.pagetitle {
@@ -508,7 +507,7 @@ select {
 /* Begin Sidebar */
 #sidebar {
 	padding: 0px;
-	margin-left: 545px;
+	margin-left: 530px;
 	margin-top: 70px;
 }
 
