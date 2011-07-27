@@ -3,7 +3,7 @@ class Posts::Show < Minimal::Template
     def to_html
       navigation
       div :class => 'post' do
-        h2 { link_to(resource.title, resources, :class => 'entry-title', :rel => 'bookmark') }
+        h2 resource.title
         metadata
         self << resource.body.html_safe
       end

@@ -1,7 +1,10 @@
 de:
   time:
     formats:
-      post: "%a, %d %b %Y"
+      post: "%A, %d. %B %Y"
+  date:
+    formats:
+      archive: "%B %Y"
   i18n:
     transliterate:
       rule:
@@ -12,3 +15,4 @@ de:
         Ö: Oe
         Ü: Ue
         ß: ss
+

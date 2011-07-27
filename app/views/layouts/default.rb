@@ -37,15 +37,15 @@ class Layouts::Default < Layouts::Base
 
     def footer
       div :id => :footer do
-        p %(
+        p <<-html.html_safe
           Copyright © 2007-2008 altgriechisch-lernen.de (siehe <a href="http://altgriechisch-lernen.de/impressum/">Impressum</a>)<br /><br />
           <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/de/80x15.png" /></a>
-        )
+        html
       end
     end
 
     def disqus
-      script <<-js, :type => 'text/javascript' 
+      script <<-js, :type => 'text/javascript'
         var disqus_shortname = 'altgriechisch-lernen';
         var disqus_developer = 1;
 

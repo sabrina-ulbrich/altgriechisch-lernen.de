@@ -3,7 +3,7 @@ class Posts::Post < Minimal::Template
     def to_html
       div :class => 'entry' do
         h3 link_to_title
-        content_tag :small, l(post.published_at, :format => :post)
+        content_tag :small, l(post.published_at, :format => :post, :locale => :de)
         div :class => :'entry-content' do
           self << truncate_html(post.body, :length => 700, :omission => " … #{link_to_more}").html_safe
         end

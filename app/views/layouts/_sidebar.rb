@@ -67,7 +67,7 @@ class Layouts::Sidebar < Minimal::Template
         ul do
           blog.archive.each do |month|
             li :class => 'archive-item' do
-              link_to(month.strftime('%B %Y'), url_for(:blog_id => blog, :year => month.year, :month => month.month))
+              link_to(l(month, :format => :archive), url_for(:blog_id => blog, :year => month.year, :month => month.month))
             end
           end
         end
