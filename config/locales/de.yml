@@ -1,0 +1,14 @@
+de:
+  time:
+    formats:
+      post: "%a, %d %b %Y"
+  i18n:
+    transliterate:
+      rule:
+        ä: ae
+        ö: oe
+        ü: ue
+        Ä: Ae
+        Ö: Oe
+        Ü: Ue
+        ß: ss

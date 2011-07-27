@@ -2,6 +2,7 @@
 title: "Homer - eine Buchrezension"
 categories: Rezensionen
 filter: markdown
+uuid: "68 http://altgriechisch-lernen.de/homer-buchrezension/"
 ---
 <div id="bildtext" style="float: right; width: 220px; text-align:center; margin-left: 10px;"><img src='/images/contents/homer.jpg' alt='Homer' style="margin: 0 0 10px 0;"/><br>Bildnis des Homer aus Marmor, römisch, nach griech. Original um 460 v. Chr. (München, Staatl. Antikensammlungen u. Glyptothek)</div>
 

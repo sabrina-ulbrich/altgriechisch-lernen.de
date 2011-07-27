@@ -1,8 +1,26 @@
+$KCODE = 'UTF8'
+
 require 'rubygems'
 require 'nokogiri'
 require 'action_view'
 require 'simple_slugs'
 require 'fileutils'
+require 'ya2yaml'
+
+
+transliterations = {
+  :'ä' => 'ae',
+  :'ö' => 'oe',
+  :'ü' => 'ue',
+  :'Ä' => 'Ae',
+  :'Ö' => 'Oe',
+  :'Ü' => 'Ue',
+  :'ß' => 'ss',
+}
+
+I18n.default_locale = :de
+I18n.locale = :de
+I18n.backend.store_translations(:de, :i18n => { :transliterate => { :rule => transliterations } })
 
 class Page
   include ::ActionView::Helpers::TagHelper
@@ -39,6 +57,10 @@ class Page
     id == 0 ? nil : id
   end
 
+  def url
+    node.xpath("link").text
+  end
+
   def status
     node.xpath("wp:status").text
   end
@@ -62,7 +84,7 @@ class Page
   def to_jekyll
     <<-txt
 ---
-title: #{title}
+name: #{title}
 filter: markdown
 ---
 #{content}
@@ -85,12 +107,17 @@ class Post < Page
     ['import', created_at.year, slug].join('/') + '.jekyll'
   end
 
+  def disqus_uuid
+    "#{id} #{url}/"
+  end
+
   def to_jekyll
     <<-txt
 ---
-title: "#{title}"
+title: #{title.inspect}
 categories: #{categories.join(', ')}
 filter: markdown
+uuid: #{disqus_uuid.inspect}
 ---
 #{content}
 txt
@@ -155,6 +182,3 @@ doc.xpath("//item[wp:post_type='attachment']").each do |node|
   `curl --create-dirs -o #{item.path} #{item.url}`
   # File.open(item.path, 'w+') { |f| f.write(item.to_jekyll) }
 end
-
-
-

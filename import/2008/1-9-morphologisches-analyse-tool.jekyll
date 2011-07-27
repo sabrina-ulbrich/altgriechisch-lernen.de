@@ -2,6 +2,7 @@
 title: "Morphologisches Analyse-Tool"
 categories: Grammatik
 filter: markdown
+uuid: "40 http://altgriechisch-lernen.de/morphologisches-analyse-tool/"
 ---
 Das <a href="http://www.perseus.tufts.edu/hopper/">Perseus-Projekt</a> bietet eine schnelle Möglichkeit an, die Form für ein altgriechisches (oder lateinisches) Wort nachzuschlagen. Das <a href="http://www.perseus.tufts.edu/hopper/morph.jsp">Word-Study-Tool</a> zeigt Dir alle möglichen Flexionsformen (mit Angabe von Kasus, Numerus, Tempus etc.), die ein Wort haben kann und nennt die Grundform (Lemma), wenn Du es in der angegebenen Weise in das Feld einträgst.
 

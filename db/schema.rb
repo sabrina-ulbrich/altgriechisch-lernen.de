@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101109000000) do
+ActiveRecord::Schema.define(:version => 20110727123822) do
 
   create_table "accounts", :force => true do |t|
   end
@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(:version => 20101109000000) do
     t.string   "filter"
     t.text     "body_html"
     t.datetime "published_at"
+    t.string   "uuid"
   end
 
   create_table "sections", :force => true do |t|

@@ -1,3 +1,5 @@
+require_dependency 'blog'
+
 Blog.class_eval do
   def archive
     # TODO optimize and move to adva-blog
