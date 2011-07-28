@@ -1,19 +1,24 @@
 PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-blog
+  remote: /Volumes/Users/sven/Development/projects/adva-cms2
   specs:
     adva-blog (0.0.10)
       adva-core
       truncate_html
-
-PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-categories
-  specs:
+    adva-cache (0.0.10)
+      adva-core
+      rack-cache-purge (= 0.0.2)
+      rack-cache-tags (= 0.0.6)
+      reference_tracking (= 0.0.4)
     adva-categories (0.0.10)
       adva-core
-
-PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-core
-  specs:
+    adva-cms2 (0.0.10)
+      adva-blog (= 0.0.10)
+      adva-cache (= 0.0.10)
+      adva-categories (= 0.0.10)
+      adva-core (= 0.0.10)
+      adva-markup (= 0.0.10)
+      adva-static (= 0.0.10)
+      adva-user (= 0.0.10)
     adva-core (0.0.10)
       activesupport-slices (= 0.0.2)
       gem-patching (= 0.0.3)
@@ -31,28 +36,16 @@ PATH
       simple_nested_set (~> 0.1.8)
       simple_slugs (= 0.0.8)
       simple_table (= 0.0.18)
-
-PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-markup
-  specs:
     adva-markup (0.0.10)
       RedCloth
       adva-core
       rdiscount
-
-PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-static
-  specs:
     adva-static (0.0.10)
       adva-core
       hashr
       nokogiri
       rack-cache
       watchr
-
-PATH
-  remote: /Volumes/Users/sven/Development/projects/adva-cms2/adva-user
-  specs:
     adva-user (0.0.10)
       adva-core
       devise (= 1.3.4)
@@ -92,40 +85,14 @@ GEM
     arel (2.0.10)
     bcrypt-ruby (2.1.4)
     builder (2.1.2)
-    capybara (1.0.0)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      selenium-webdriver (~> 0.2.0)
-      xpath (~> 0.1.4)
-    childprocess (0.2.0)
-      ffi (~> 1.0.6)
-    columnize (0.3.4)
-    cucumber (1.0.2)
-      builder (>= 2.1.2)
-      diff-lcs (>= 1.1.2)
-      gherkin (~> 2.4.5)
-      json (>= 1.4.6)
-      term-ansicolor (>= 1.0.5)
-    cucumber-rails (1.0.2)
-      capybara (>= 1.0.0)
-      cucumber (~> 1.0.0)
-      nokogiri (>= 1.4.6)
-    database_cleaner (0.6.7)
     devise (1.3.4)
       bcrypt-ruby (~> 2.1.2)
       orm_adapter (~> 0.0.3)
       warden (~> 1.0.3)
-    diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    fakefs (0.3.2)
-    ffi (1.0.9)
     gem-patching (0.0.3)
     gem_patching (0.0.2)
-    gherkin (2.4.5)
-      json (>= 1.4.6)
     has_scope (0.5.0)
     hashr (0.0.9)
     i18n (0.5.0)
@@ -134,12 +101,8 @@ GEM
       has_scope (~> 0.5.0)
       responders (~> 0.6.0)
     inherited_resources_helpers (0.0.15)
-    json (1.5.3)
-    json_pure (1.5.3)
     kronn-has_many_polymorphs (3.0.2)
       activerecord
-    linecache (0.46)
-      rbx-require-relative (> 0.0.4)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -149,13 +112,15 @@ GEM
     minimal (0.0.26)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    mocha (0.9.12)
     nokogiri (1.5.0)
     orm_adapter (0.0.5)
     polyglot (0.3.2)
     rack (1.2.3)
-    rack-cache (1.0.2)
+    rack-cache (0.5.3)
       rack (>= 0.4)
+    rack-cache-purge (0.0.2)
+      rack-cache (~> 0.5)
+    rack-cache-tags (0.0.6)
     rack-mount (0.6.14)
       rack (>= 1.0.0)
     rack-test (0.5.7)
@@ -175,23 +140,12 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.4)
     rake (0.9.2)
-    rbx-require-relative (0.0.5)
     rdiscount (1.6.8)
     rdoc (3.8)
+    reference_tracking (0.0.4)
     responders (0.6.4)
     routing-filter (0.2.0)
       actionpack
-    ruby-debug (0.10.4)
-      columnize (>= 0.1)
-      ruby-debug-base (~> 0.10.4.0)
-    ruby-debug-base (0.10.4)
-      linecache (>= 0.3)
-    rubyzip (0.9.4)
-    selenium-webdriver (0.2.2)
-      childprocess (>= 0.1.9)
-      ffi (>= 1.0.7)
-      json_pure
-      rubyzip
     silence_log_tailer (0.0.1)
     simple_form (1.3.1)
     simple_nested_set (0.1.8)
@@ -204,12 +158,7 @@ GEM
       actionpack (~> 3.0.0)
       activerecord (~> 3.0.0)
       activesupport (~> 3.0.0)
-    sqlite3-ruby (1.2.5)
-    term-ansicolor (1.0.6)
-    test_declarative (0.0.5)
     thor (0.14.6)
-    tidy_ffi (0.1.3)
-      ffi (>= 0.3.5)
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
@@ -218,31 +167,9 @@ GEM
     warden (1.0.5)
       rack (>= 1.0)
     watchr (0.7)
-    webrat (0.7.0)
-      nokogiri (>= 1.2.0)
-      rack (>= 1.0)
-      rack-test (>= 0.5.3)
-    xpath (0.1.4)
-      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  adva-blog!
-  adva-categories!
-  adva-core!
-  adva-markup!
-  adva-static!
-  adva-user!
-  cucumber
-  cucumber-rails
-  database_cleaner
-  fakefs
-  mocha
-  ruby-debug
-  sqlite3-ruby (= 1.2.5)
-  test_declarative
-  thor
-  tidy_ffi
-  webrat (= 0.7.0)
+  adva-cms2!
